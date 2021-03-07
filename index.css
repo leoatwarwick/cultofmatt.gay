@@ -1,0 +1,40 @@
+html {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    color: yellow;
+}
+
+h1,
+h3 {
+    background-color: blue;
+}
+
+body {
+    background: url("https://media1.tenor.com/images/6b67cbd64540f08df29c232d6545fcba/tenor.gif?itemid=19616035")
+        repeat scroll left;
+}
+
+img {
+    animation-name: spin;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+marquee {
+    font-size: 2rem;
+}
+
+h3 {
+    margin-top: 80vh;
+    width: 200vw;
+}
